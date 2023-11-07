@@ -6,10 +6,10 @@ export default function Tienda({ guitarras }) {
   return (
     <Layout
       title={"Tienda Virtual"}
-      description='Tienda virtual, venta de guitarras, intrumentos, GuitarLA, tienda de música'
+      description='Tienda virtual, venta de guitarras, instrumentos, GuitarLA, tienda de música'
     >
       <main className='contenedor'>
-        <h1 className='heading'>Nustra Colección</h1>
+        <h1 className='heading'>Nuestra Colección</h1>
 
         <div className={styles.grid}>
           {guitarras.map((guitarra) => (
