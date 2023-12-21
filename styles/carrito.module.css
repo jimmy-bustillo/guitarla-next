@@ -21,6 +21,7 @@
   align-items: center;
   padding: 3rem 0;
   border-bottom: solid 1px #cfcfcf;
+  position: relative;
 }
 
 .producto:last-of-type {
@@ -66,4 +67,17 @@
   border-radius: 1rem;
   position: sticky;
   top: 3rem;
+}
+
+.eliminar {
+  all: unset;
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  font-weight: 900;
+  
+}
+
+.eliminar:hover {
+  cursor: pointer;
 }
