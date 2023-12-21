@@ -64,4 +64,6 @@
   background-color: #f4f4f4;
   padding: 3rem;
   border-radius: 1rem;
+  position: sticky;
+  top: 3rem;
 }
